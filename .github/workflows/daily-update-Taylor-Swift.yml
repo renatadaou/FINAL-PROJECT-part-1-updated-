@@ -18,7 +18,7 @@ jobs:
       with:
         python-version: '3.11.6'
     - name: Install all necessary packages
-      run: pip install jupyter lxml pandas requests beautifulsoup4 html5lib spotipy load_dotenv async_playwright stealth_async
+      run: pip install jupyter lxml pandas requests beautifulsoup4 html5lib spotipy load_dotenv stealth_async
     - name: Scraping today's data
       run: jupyter nbconvert --to notebook --execute "Final project Spotipy.ipynb" --stdout
     - name: Commit and push any changes
