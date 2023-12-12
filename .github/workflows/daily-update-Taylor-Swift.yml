@@ -10,6 +10,9 @@ on:
 jobs:
   daily:
     runs-on: ubuntu-latest
+    env:
+      PROJECT_API_KEY: ${{ vars.PROJECT_API_KEY }}
+      PROJECT_API_KEY_SECRET: ${{ vars.PROJECT_API_KEY_SECRET }}
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
