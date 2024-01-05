@@ -1,2 +1,16 @@
-# FINAL-PROJECT-part-1-updated-
-Final project updated. This is the top 10 Taylor songs
+ 🦋🌟👗🧣🏙🐍💘🍷🥂 
+"We're happy, free, confused and lonely at the same time."
+-22
+
+# Taylor Swift's Daily Top 10 Most Played Songs
+
+This project uses Spotify data to track the daily streaming metrics of Taylor Swift's most-played songs!!
+
+The project is an auto-updating, data-driven website. 
+
+Using GitHub Actions and Spotipy, the workflow unfolds across two key steps:
+
+1. I used Jupyter Notebook to access the public Spotify data. Through the Spotipy API, I am able to extract the latest data  every evening and append it to a CSV file for continuous record-keeping. 
+2. Subsequently, the process is automated through GitHub Actions, using environment variables for its execution.
+
+This website employs web scraping techniques through Beautiful Soup and Playwright to extract information from Spotipy, which is then stored in a CSV file. The file showcases the constantly changing Taylor Swift's most-streamed songs on a day-to-day basis.
