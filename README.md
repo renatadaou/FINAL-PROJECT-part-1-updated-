@@ -1,4 +1,4 @@
-# Taylor Swift's Daily Top 10 Most Played Song-
+# Taylor Swift's Daily Top 10 Most Played Songs
 This project uses Spotify data to track the daily streaming metrics of Taylor Swift's most-played songs!! 
 
 Using GitHub Actions and Spotipy, the workflow unfolds across two key steps:
