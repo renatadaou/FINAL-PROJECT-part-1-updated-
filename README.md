@@ -1,5 +1,11 @@
+# Taylor Swift!!!  #
+## 🦋🌟👗🧣🏙🐍💘🍷🥂 ## 
+"We're happy, free, confused and lonely at the same time."
+-22
+
 # Taylor Swift's Daily Top 10 Most Played Songs
-This project uses Spotify data to track the daily streaming metrics of Taylor Swift's most-played songs!! 
+
+This project uses Spotify data to track the daily streaming metrics of Taylor Swift's most-played songs!!
 
 The project is an auto-updating, data-driven website. 
 
