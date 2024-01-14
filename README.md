@@ -11,6 +11,6 @@ The project is an auto-updating, data-driven website.
 Using GitHub Actions and Spotipy, the workflow unfolds across two key steps:
 
 1. I used Jupyter Notebook to access the public Spotify data. Through the Spotipy API, I am able to extract the latest data  every evening and append it to a CSV file for continuous record-keeping. 
-2. Subsequently, the process is automated through GitHub Actions, using environment variables for its execution.
+2. Subsequently, the process is automated through GitHub Actions, using environment variables for its execution and keeping the API key a secret.
 
 This website employs web scraping techniques through Beautiful Soup and Playwright to extract information from Spotipy, which is then stored in a CSV file. The file showcases the constantly changing Taylor Swift's most-streamed songs on a day-to-day basis.
