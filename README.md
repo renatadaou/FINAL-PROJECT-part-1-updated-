@@ -14,4 +14,4 @@ Using GitHub Actions and Spotipy, the workflow unfolds across two key steps:
 2. Subsequently, the process is automated through GitHub Actions, using environment variables for its execution and keeping the API key a secret.
 3. Finally, the result is a cute Taylor Swift-themed website, with graphics created using DataWrapper.
 
-This website employs web scraping techniques through Beautiful Soup and Playwright to extract information from Spotipy, which is then stored in a CSV file. The file showcases the constantly changing Taylor Swift's most-streamed songs on a day-to-day basis. Using HTML and DataWrapper, I created a website to vizualize the information from the CSV file. 
+This website employs web scraping techniques through Beautiful Soup and Playwright to extract information from Spotipy, which is then stored in a CSV file. The file showcases the constantly changing Taylor Swift's most-streamed songs on a day-to-day basis. Using HTML and DataWrapper, I created a website to visualize the information from the CSV file. 
